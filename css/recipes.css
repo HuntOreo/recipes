@@ -10,7 +10,42 @@ html {
 
 body {
   background-color: lightblue;
+  width: 100%;
 }
 
+a {
+  margin: 50%;
+}
+
+div.container.header {
+  min-width: fit-content;
+}
+
+div.wrapper {
+  text-align: center;
+  height: fit-content;
+}
+
+div.wrapper .container {
+  display: inline-block;
+  margin: 10px 5px;
+  margin-top: 0;
+  min-width: fit-content;
+  text-align: left;
+  vertical-align: top;
+}
+
+div.container {
+  background-color: lightcoral;
+  padding: 10px;
+  margin: 10px auto;
+  width: fit-content;
+  max-width: 50%;
+  min-width: 500px;
+}
+
+div.container h2 {
+  text-align: center;
+}
 
 
